@@ -3,9 +3,12 @@ style wardley
 evolution Novel/New -> -> -> Accepted/Common
 
 anchor Citizen [0.91, 0.40]
-anchor Decision maker [0.91, 0.68]
-anchor Researcher [0.91, 0.85]
+anchor Decision maker [0.91, 0.8]
+anchor Researcher [0.91, 0.65]
 
+// *********************************
+// Citizen Story
+// *********************************
 component Learn something [0.87, 0.25]
 component Sense of contribution [0.87, 0.40] label [5, -10]
 component Excitment [0.86, 0.49]
@@ -33,6 +36,14 @@ Training -> Citizen Science groups
 Recognition -> Citizen Science groups
 Community -> Citizen Science groups
 Citizen Science groups -> Projects
+
+
+
+// ******************************
+// Common components
+// ******************************
+component Research Disciplines [0.65,0.55]
+Research Disciplines -> Citizen Science groups
 
 component Projects [0.64, 0.35]
 Projects -> Data
@@ -63,6 +74,19 @@ pipeline Practices [0.1,0.75]
 pipeline Standards [0.1,0.75]
 
 
+// *************************************
+// Researcher Story
+// *************************************
+
+Researcher -> Data
+Researcher -> Projects
+Researcher -> Research Disciplines
+
+
+
+// *************************************
+// evolution story
+// *************************************
 evolve Training 0.6
 note Training improves data quality [0.8,0.7]
 note and participation [0.785,0.7]
@@ -74,5 +98,9 @@ evolve Data Quality 0.6
 note This requires Training, standards and [0.42,0.7]
 note Practices to improve [0.405,0.7]
 
+
+// *************************************
+// Story of Inertia in the system
+// ************************************
 component Citizen Science groups [0.7,0.5] inertia
 component Practices [0.58,0.4] inertia
