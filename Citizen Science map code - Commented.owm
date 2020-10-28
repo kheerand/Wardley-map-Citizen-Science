@@ -68,10 +68,11 @@ Platforms -> Standards
 Data Quality -> Data
 Data Quality -> Standards
 Data Quality -> Practices
-Data Quality -> Training
 
 // component Standards [0.29, 0.30]
 // component Practices [0.58,0.4]
+// Data Quality -> Tools
+// Practices -> Training
 
 // pipeline Practices [0.1,0.75]
 // pipeline Standards [0.1,0.75]
@@ -107,4 +108,5 @@ Data Quality -> Training
 // ************************************
 // component Citizen Science groups [0.7,0.5] inertia
 // component Practices [0.58,0.4] inertia
+// component Standards [0.29,0.3] inertia
 
