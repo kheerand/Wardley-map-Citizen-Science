@@ -3,8 +3,8 @@ style wardley
 evolution Novel/New -> -> -> Accepted/Common
 
 anchor Citizen [0.91, 0.40]
-anchor Decision maker [0.91, 0.8]
-anchor Researcher [0.91, 0.65]
+// anchor Decision maker [0.91, 0.8]
+// anchor Researcher [0.91, 0.65]
 
 // *********************************
 // Citizen Story
@@ -24,6 +24,7 @@ Citizen -> Recognition
 // component Community [0.8,0.5]
 Excitment -> Community
 Sense of contribution -> Community
+Recognition -> Community
 
 // component Training [0.8,0.15]
 Learn something -> Training
@@ -106,3 +107,4 @@ Data Quality -> Training
 // ************************************
 // component Citizen Science groups [0.7,0.5] inertia
 // component Practices [0.58,0.4] inertia
+

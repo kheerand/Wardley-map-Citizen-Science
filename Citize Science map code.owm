@@ -22,6 +22,7 @@ Citizen -> Recognition
 component Community [0.8,0.5]
 Excitment -> Community
 Sense of contribution -> Community
+Recognition -> Community
 
 component Training [0.8,0.15]
 Learn something -> Training
